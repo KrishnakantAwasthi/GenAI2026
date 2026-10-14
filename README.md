@@ -1,54 +1,102 @@
-# GenAI2026
-Module 06 : Machine Learning &amp; Generative AI with Microsoft Azure
+# Advanced Machine Learning & Generative AI Explorer Series
 
-Learning Objective
-🌟 Introduction
-Welcome to the Advanced Machine Learning & Generative AI Explorer Series — a hands-on, industry-aligned journey designed to empower learners with the essential knowledge, practical skills, and real-world applications of modern AI technologies.
-From understanding the core Machine Learning lifecycle, deploying models in real-world scenarios, mastering Computer Vision with cloud platforms, to exploring the revolutionary domain of Generative AI, LLMs, and Prompt Engineering — this series is your gateway to becoming a future-ready AI practitioner.
-🧭 Themes
-End-to-End ML Mastery: Learn how ML systems are built, deployed, and monitored from scratch using real-life tools and practices.
-Cloud-Powered Vision Intelligence: Use Azure ML Studio to create no-code/low-code Computer Vision solutions.
-Generative AI Fluency: Dive into the world of ChatGPT, Gemini, Claude, and more, learning to prompt, reason, and create with AI.
-LLMs & APIs: Understand how large language models work, how to integrate them via APIs, and build advanced GenAI apps.
-Agentic Systems with LangChain & RAG: Go beyond chatbots and create knowledge-aware, memory-enabled intelligent systems.
-Real-World Applications: Implement document interaction tools like MultiPDFChat and automate workflows using smart prompting and retrieval.
-🎯 Primary Goals 
-Introduction to ML Lifecycle
-Understand the stages of ML project development: data collection, preprocessing, model building, evaluation, deployment, and monitoring.
-Learn how tools like MLflow, DVC, and CI/CD pipelines support the end-to-end ML workflow.
- Deploying ML Models
-Learn methods to deploy ML models through APIs, web applications, and cloud platforms.
-Use Docker, Flask, Streamlit, and GitHub Actions to automate deployment and continuous integration.
-Computer Vision using Azure Studio
-Build computer vision models in Azure Studio for tasks such as classification, object detection, and OCR.
-Leverage no-code solutions for efficient image-based ML model development.
-Introduction to GenAI & Prompt Engineering
-Grasp the fundamentals of Generative AI and how to craft effective prompts.
-Explore real-world applications of GenAI in content creation, text summarization, and automated solutions.
-Introduction to LLMs and Working with LLM APIs
-Learn the architecture and capabilities of Large Language Models (LLMs) like GPT, Gemini, and Claude.
-Interact with LLMs using APIs (OpenAI, Google Gemini, Cohere) to build conversational and language-based applications.
-Introduction to LangChain & RAG
-Understand the concepts behind LangChain, vector databases, and Retrieval-Augmented Generation (RAG).
-Develop intelligent systems capable of retrieving, reasoning, and responding with context-aware knowledge.
- MultiPDFChat: Document Interaction Simplified
-Build an interactive system to query and extract information from multiple PDF documents using LLMs.
-Implement text extraction, chunking, vector stores, and conversational interfaces for effective document interaction.
- Introduction to Agentic AI with n8n
-Dive into Agentic AI concepts and workflows.
-Learn to build autonomous agents with n8n to automate complex tasks and integrate external tools.
-Chapter Essentials
-📘 Learning Lessons
-Each chapter comprises a series of structured lessons focused on the core theme (e.g., ML Lifecycle, Deployment, GenAI, LLMs).
-Lessons include a blend of conceptual explanations, real-world use cases, and interactive demonstrations to reinforce understanding.
-Every lesson features:
-📚 Learning Material – Clear breakdown of key concepts, visuals, and code examples.
-🧠 Engaging Activities – Hands-on tasks, case studies, walkthroughs, or quizzes.
-📝 Try it Yourself Assignment – A take-home, practical mini-project or coding challenge.
-❓ 10 MCQs per Lesson – Multiple-choice questions designed to test understanding and promote knowledge retention.
-🏆 Skill Mastery Challenge
-At the end of the chapter, learners face a Skill Mastery Challenge to consolidate and assess their learning:
-🔍 Summary Section – Recap of best practices, challenges faced, and advanced tips or tools.
-💬 Interview Prep Section – Real-world, domain-specific Q&A to bridge learning with industry expectations.
-🎯 Competency Challenge – A timed, 1-hour evaluation consisting of 40 scenario-based MCQs, providing an opportunity to test applied understanding.
-📜 Competency Challenge Certificate – Earned upon successful completion, validating the learner’s mastery of the chapter’s concepts and skills.
+> A hands-on, industry-aligned curriculum designed to take you from foundational ML engineering and cloud computer vision to cutting-edge Generative AI, RAG pipelines, and autonomous agentic workflows.
+
+---
+
+## 📌 Table of Contents
+- [Overview](#-overview)
+- [Core Themes](#-core-themes)
+- [Curriculum Objectives](#-curriculum-objectives)
+- [Chapter Architecture](#-chapter-architecture)
+  - [Lesson Structure](#1-lesson-structure)
+  - [Skill Mastery Challenge](#2-skill-mastery-challenge)
+- [Tech Stack & Tools](#-tech-stack--tools)
+
+---
+
+## 📖 Overview
+
+Welcome to the **Advanced Machine Learning & Generative AI Explorer Series** — a structured, practical journey designed to empower developers and researchers with real-world AI engineering skills.
+
+From building scalable ML lifecycles and deploying models in production to building agentic pipelines with LangChain and orchestrating automated agents with n8n, this curriculum prepares you to build, deploy, and evaluate production-ready AI systems.
+
+---
+
+## 🎯 Core Themes
+
+- 🔄 **End-to-End ML Mastery:** Learn to architect, deploy, and monitor scalable ML systems using industry-standard tools and CI/CD practices.
+- 👁️ **Cloud-Powered Vision Intelligence:** Build low-code/no-code Computer Vision pipelines using Azure ML Studio.
+- ✨ **Generative AI Fluency:** Master modern foundation models (ChatGPT, Gemini, Claude) through systematic prompt engineering and reasoning paradigms.
+- ⚡ **LLMs & API Integration:** Interface programmatically with state-of-the-art LLMs using provider APIs to build specialized applications.
+- 🧠 **Agentic Systems & RAG:** Move past simple chat interfaces to architect memory-enabled, knowledge-grounded systems using LangChain and vector stores.
+- 🛠️ **Production Applications:** Build document intelligence pipelines like **MultiPDFChat** and orchestrate complex agentic workflows.
+
+---
+
+## 🎯 Curriculum Objectives
+
+### 1. Introduction to ML Lifecycle
+- Master every phase of the Machine Learning lifecycle: data collection, cleaning, feature engineering, model training, evaluation, and operational monitoring.
+- Track experiments, manage data versioning, and configure automation pipelines with **MLflow**, **DVC**, and **CI/CD**.
+
+### 2. Deploying ML Models
+- Package and serve models via REST APIs and web interfaces using **Flask** and **Streamlit**.
+- Containerize workloads with **Docker** and establish automated deployment workflows via **GitHub Actions**.
+
+### 3. Computer Vision using Azure ML Studio
+- Configure end-to-end vision pipelines for image classification, object detection, and optical character recognition (OCR).
+- Utilize cloud-based, low-code interfaces for fast prototyping and deployment.
+
+### 4. Introduction to GenAI & Prompt Engineering
+- Learn the core mechanics of generative models and principles of deterministic vs. creative output generation.
+- Design advanced prompting patterns (Few-Shot, Chain-of-Thought, Directional-Stimulus) for summarization, extraction, and structured outputs.
+
+### 5. Working with LLMs & Provider APIs
+- Deep-dive into modern LLM architectures, context windows, and token dynamics across GPT, Gemini, and Claude.
+- Integrate model endpoints via official SDKs/APIs (OpenAI, Google Gemini, Cohere) for scalable downstream apps.
+
+### 6. LangChain & Retrieval-Augmented Generation (RAG)
+- Master the core abstractions of LangChain: PromptTemplates, OutputParsers, Chains, and Memory.
+- Build production-ready RAG architectures utilizing semantic chunking, embedding models, and vector stores.
+
+### 7. Capstone Project: MultiPDFChat
+- Build a multi-document question-answering system capable of accurate context retrieval.
+- Implement text ingestion, recursive chunking, dense vector retrieval, and conversational state tracking.
+
+### 8. Agentic AI & Workflow Automation with n8n
+- Understand autonomous agent architectures: reasoning loops (ReAct), tool selection, and execution graphs.
+- Use **n8n** to construct agentic automation workflows connecting LLMs to external APIs and databases.
+
+---
+
+## 🏗️ Chapter Architecture
+
+Each chapter is divided into focused modules followed by a rigorous assessment checkpoint.
+
+### 1. Lesson Structure
+Every lesson is self-contained and includes:
+- 📘 **Learning Material:** Clear conceptual breakdowns, architectural diagrams, and runnable code samples.
+- 💻 **Engaging Activities:** Hands-on walkthroughs, interactive notebooks, and applied case studies.
+- 🛠️ **Try It Yourself Assignment:** Practical mini-projects and coding challenges to cement implementation skills.
+- 📝 **10 Lesson MCQs:** Diagnostic questions assessing comprehension before moving forward.
+
+### 2. Skill Mastery Challenge
+At the conclusion of each chapter:
+- 📋 **Summary & Best Practices:** A synthesis of architectural patterns, common failure modes, and production tips.
+- 💼 **Interview Prep:** Real-world technical and scenario-based Q&A designed for AI engineering interviews.
+- ⏱️ **Competency Challenge:** A timed, 60-minute evaluation comprising **40 scenario-based MCQs**.
+- 🎓 **Competency Certificate:** Earned upon passing the timed evaluation to validate topic mastery.
+
+---
+
+## 🧰 Tech Stack & Tools
+
+| Domain | Technologies |
+| :--- | :--- |
+| **MLOps & Lifecycle** | Python, MLflow, DVC, Git, GitHub Actions |
+| **Model Serving & Ops** | Docker, Flask, Streamlit, RESTful APIs |
+| **Cloud AI** | Azure ML Studio (Vision, OCR, AutoML) |
+| **LLMs & Providers** | OpenAI API, Google Gemini API, Cohere, Anthropic Claude |
+| **RAG & Frameworks** | LangChain, Vector Databases (Chroma/FAISS/Pinecone) |
+| **Agentic Automation** | n8n, ReAct Agents, Webhooks & Tool Integrations |
